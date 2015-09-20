@@ -9,7 +9,7 @@ var app = angular.module('starter', ['ionic','ngCordova']);
 
     $stateProvider
       .state("form", {
-        url: "/form:type",
+        url: "/form/:type",
         templateUrl: "views/form/form.html",
         controller: "FormController"
       })
